@@ -1,5 +1,0 @@
-curl -X POST "http://localhost:8080/Ghaziani-Test1/CalculatorServlet?numberItems=10&itemPrice=22&taxRate=15&province=Quebec&cname=Mehrbod%20Ghaziani"
-
-curl -X POST "http://localhost:8080/Ghaziani-Test1/CalculatorServlet?numberItems=0&itemPrice=100&taxRate=15&province=Ontario&cname=Mehrbod%20Ghaziani"
-
-curl -X POST "http://localhost:8080/Ghaziani-Test1/CalculatorServlet?numberItems=10&itemPrice=0&taxRate=-1&province=Quebec&cname=Mehrbod%20Ghaziani"
