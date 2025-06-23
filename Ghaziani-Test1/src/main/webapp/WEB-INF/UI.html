@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart Price Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="validations.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Shopping Cart Calculator</h1>
+  </header>
+
+  <main>
+    <form action="CalculatorServlet" method="post" id="cartForm">
+      <fieldset>
+        <legend>Enter Shopping Cart Details</legend>
+
+        <label for="noItems">
+          Number of Items:
+          <input type="text" id="noItems" name="noItems" required>
+        </label><br>
+
+        <label for="price">
+          Price per Item:
+          <input type="text" id="price" name="price" required>
+        </label><br>
+
+        <label for="tax">
+          Tax Rate:
+          <input type="text" id="tax" name="tax" required>
+          <span class="error" aria-live="polite"></span>
+        </label><br>
+
+        <input type="submit" value="Calculate">
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>Created for E-Commerce Lab</p>
+  </footer>
+</body>
+</html>
