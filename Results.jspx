@@ -17,13 +17,13 @@
         <form>
           <fieldset>
             <legend>Purchase Summary</legend>
-            <p><strong>Customer name:</strong> <jsp:expression>request.getAttribute("customerName")</jsp:expression></p>
-            <p><strong>Province:</strong> <jsp:expression>request.getAttribute("province")</jsp:expression></p>
-            <p><strong>Number of Items:</strong> <jsp:expression>request.getAttribute("noItems")</jsp:expression></p>
-            <p><strong>Price per Item:</strong> $<jsp:expression>request.getAttribute("price")</jsp:expression></p>
-            <p><strong>Tax Rate:</strong> <jsp:expression>request.getAttribute("tax")</jsp:expression>%</p>
-            <p><strong>Shipping Fees:</strong> $<jsp:expression>request.getAttribute("shippingFees")</jsp:expression></p>
-            <p><strong>Total Price:</strong> $<jsp:expression>request.getAttribute("total")</jsp:expression></p>
+            <p><strong>Customer name: </strong> <jsp:expression>request.getAttribute("customerName")</jsp:expression></p>
+            <p><strong>Province: </strong> <jsp:expression>request.getAttribute("province")</jsp:expression></p>
+            <p><strong>Number of Items: </strong> <jsp:expression>request.getAttribute("noItems")</jsp:expression></p>
+            <p><strong>Price per Item: </strong> $<jsp:expression>request.getAttribute("price")</jsp:expression></p>
+            <p><strong>Tax Rate: </strong> <jsp:expression>request.getAttribute("tax")</jsp:expression>%</p>
+            <p><strong>Shipping Fees: </strong> $<jsp:expression>request.getAttribute("shippingFees")</jsp:expression></p>
+            <p><strong>Total Price: </strong> $<jsp:expression>request.getAttribute("total")</jsp:expression></p>
           </fieldset>
         </form>
       </main>
