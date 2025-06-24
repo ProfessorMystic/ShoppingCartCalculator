@@ -36,8 +36,3 @@ This application can serve as a foundation for understanding full-stack web appl
 - HTML5, CSS3
 - JavaScript (DOM-based form validation)
 - Apache Tomcat (or any Java EE-compliant servlet container)
-
----
-
-## 📦 Folder Structure
-
